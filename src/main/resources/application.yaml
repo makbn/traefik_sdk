@@ -1,0 +1,13 @@
+logging:
+  level:
+    root: warn
+
+server:
+  port: 8000
+spring:
+  profiles:
+    active: dev
+
+traefik:
+  host: http://localhost
+  port: 8080
